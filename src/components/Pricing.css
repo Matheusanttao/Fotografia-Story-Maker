@@ -1,0 +1,128 @@
+.pricing {
+  padding: 2.5rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.pricing-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
+  padding: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.pricing-label {
+  display: block;
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.pricing-value {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.currency {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.amount {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.payment-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.payment-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.payment-icon {
+  font-size: 2rem;
+  flex-shrink: 0;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.payment-info {
+  flex: 1;
+}
+
+.payment-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.payment-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  opacity: 0.95;
+}
+
+.payment-description strong {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.quote-box {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  border-left: 4px solid rgba(255, 255, 255, 0.5);
+  animation: fadeInUp 1s ease-out;
+}
+
+.quote-text {
+  font-size: 1rem;
+  line-height: 1.8;
+  font-style: italic;
+  text-align: center;
+  opacity: 0.95;
+}
+
+@media (min-width: 768px) {
+  .pricing {
+    padding: 3rem 2rem;
+  }
+  
+  .pricing-card {
+    padding: 2.5rem;
+  }
+  
+  .amount {
+    font-size: 3.5rem;
+  }
+  
+  .quote-text {
+    font-size: 1.1rem;
+  }
+}
