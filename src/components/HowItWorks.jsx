@@ -35,7 +35,7 @@ const HowItWorks = () => {
               <span className="professional-subtitle">Conteúdo Digital</span>
             </div>
             <p className="professional-description">
-              Foco na "vibe" do evento em formato vertical, capturando bastidores, reações espontâneas e produzindo vídeos dinâmicos.
+              Foco na "vibe" do evento em formato vertical, capturando bastidores, reações espontâneas e produzindo vídeos dinâmicos <strong>em tempo real no story</strong>.
             </p>
           </div>
         </div>

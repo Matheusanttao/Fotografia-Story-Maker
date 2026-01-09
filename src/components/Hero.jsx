@@ -15,9 +15,15 @@ const Hero = () => {
         <p className="hero-subtitle">
           Garanta uma cobertura total do seu evento com uma equipe dupla dedicada a capturar cada momento sob dois olhares complementares.
         </p>
-        <div className="hero-highlight">
-          <span className="highlight-icon">✨</span>
-          <span>Cobertura completa de 6 horas</span>
+        <div className="hero-highlights">
+          <div className="hero-highlight">
+            <span className="highlight-icon">✨</span>
+            <span>Cobertura completa de 6 horas</span>
+          </div>
+          <div className="hero-highlight">
+            <span className="highlight-icon">⚡</span>
+            <span>Vídeos em tempo real no story</span>
+          </div>
         </div>
       </div>
       <div className="hero-decoration"></div>

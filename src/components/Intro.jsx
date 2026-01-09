@@ -10,7 +10,7 @@ const Intro = () => {
             Nossa proposta une a qualidade da <strong>fotografia profissional</strong> com o dinamismo do <strong>Story Maker</strong>, garantindo que você tenha registros clássicos para a vida toda e conteúdos modernos para compartilhar agora.
           </p>
           <p className="intro-text intro-text-highlight">
-            É a escolha ideal para quem não quer se preocupar com nada e deseja uma cobertura que acompanhe o ritmo da festa.
+            É a escolha ideal para quem não quer se preocupar com nada e deseja uma cobertura que acompanhe o ritmo da festa, com vídeos em tempo real no story.
           </p>
         </div>
       </div>

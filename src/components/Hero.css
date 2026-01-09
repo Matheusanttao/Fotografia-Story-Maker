@@ -59,6 +59,13 @@
   animation: fadeInUp 1s ease-out 0.4s both;
 }
 
+.hero-highlights {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
 .hero-highlight {
   display: inline-flex;
   align-items: center;
@@ -70,6 +77,10 @@
   font-weight: 600;
   font-size: 0.95rem;
   animation: fadeInUp 1.2s ease-out 0.6s both;
+}
+
+.hero-highlight:nth-child(2) {
+  animation-delay: 0.8s;
 }
 
 .highlight-icon {

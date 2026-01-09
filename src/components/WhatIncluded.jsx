@@ -16,12 +16,12 @@ const WhatIncluded = () => {
     {
       icon: '🚀',
       title: 'Entrega Ágil (Brutos)',
-      description: 'Todos os vídeos e fotos feitos no iPhone entregues em até 24h via link ou AirDrop'
+      description: 'Todos os vídeos e fotos feitos no iPhone entregues em até 24h via link ou AirDrop. Vídeos em tempo real no story durante o evento!'
     },
     {
       icon: '🎬',
-      title: '02 Vídeos Editados',
-      description: 'Entrega de 02 Reels (Highlights) com trilha sonora e edição dinâmica'
+      title: '1 Vídeo Editado',
+      description: 'Entrega de 1 Reel (Highlight) com trilha sonora e edição dinâmica'
     },
     {
       icon: '🎁',
